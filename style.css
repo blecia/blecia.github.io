@@ -7,7 +7,7 @@
 
 
 }
-header{
+/* header{
     text-align: center;
     padding: 0%;
     position: fixed; top: 0;
@@ -15,34 +15,35 @@ header{
     max-height: 25%;
     width: 100%;
     
-    background-image: url(levél.jpeg);
-}
+    background-image: url(levél.png);
+} */
 div{
     font-weight: bold;
-    text-align: left;
+    /* text-align: left; */
     /* float: left; */
 }
-footer{
+/* footer{
     position:fixed; bottom: 0;
     position: fixed; left: 0; right: 0;
     text-align: center;
     max-height: 12%;
     width: 100%;
-    background-image: url(levél.jpeg);
+    background-image: url(levél.png);
     padding-bottom: 0.5em;
-}
+} */
 
 body{
     min-height: 100%;
     margin: auto;
-    margin-top: 7em;
-    margin-bottom: 7em;
-    background-color: rgb(21, 49, 21);
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-image: url(levél.jpeg);
     text-align: center;
 }
 button{
-    background-color: rgba(26, 150, 22, 0.501);
+    background-color: rgb(21, 49, 21);
     margin-top: 0.5em;
+    margin-bottom: 0.5em;
     border:1px solid white;
    
 }
@@ -51,12 +52,13 @@ button:hover{
     
 }
 main{
-    background-color: rgba(26, 150, 22, 0.501);
+    background-color: rgb(21, 49, 21);
     border-radius: 3.6vw;
     border-color: white;
     border: 0.2em solid;
     padding: 1em;
     margin: 4em;
+    
 }
 img{
     margin-left: auto;
