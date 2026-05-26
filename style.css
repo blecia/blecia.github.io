@@ -2,7 +2,7 @@
     color: rgb(248, 244, 226);
     font-size: 130%;
     font-family: 'Spicy Rice' ;
-    
+    letter-spacing: 5%;
     justify-items: center;
 
 
@@ -19,19 +19,20 @@ header{
 }
 div{
     font-weight: bold;
+    
+    /* float: left; */
 }
 footer{
-    
-    position: fixed; bottom: 0;
+    position:fixed; bottom: 0;
     position: fixed; left: 0; right: 0;
     text-align: center;
-    max-height: 10%;
+    max-height: 12%;
     width: 100%;
     background-image: url(levél.jpeg);
 }
+
 body{
     min-height: 100%;
-    background-color: black;
     margin: auto;
     margin-top: 7em;
     margin-bottom: 7em;
@@ -41,7 +42,8 @@ body{
 button{
     background-color: rgba(26, 150, 22, 0.501);
     margin-top: 0.5em;
-    
+    border:1px solid white;
+   
 }
 button:hover{
     background-color: rgb(34, 84, 34);
@@ -53,6 +55,7 @@ main{
     border-color: white;
     border: 0.2em solid;
     padding: 1em;
+    margin: 4em;
 }
 img{
     margin-left: auto;
